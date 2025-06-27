@@ -4,11 +4,22 @@ const CONFIG = {
     name: "reiwruts",
     image: "/Kirby.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "이것저것",
+    bio: "",
+    email: "",
+    linkedin: "",
+    github: "",
     instagram: "reiwruts",
   },
+    projects: [
+    {
+      name: ``,
+      href: "",
+    },
+  ],
   // blog setting (required)
   blog: {
     title: "Archive",
+    description: "",
     scheme: "system", // 'light' | 'dark' | 'system'
   },
 
