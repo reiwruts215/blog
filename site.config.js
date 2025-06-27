@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "reiwruts",
-    image: "/Kirby.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/profile.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "이것저것",
     bio: "",
     email: "",
@@ -10,12 +10,7 @@ const CONFIG = {
     github: "",
     instagram: "reiwruts",
   },
-    projects: [
-    {
-      name: ``,
-      href: "",
-    },
-  ],
+
   // blog setting (required)
   blog: {
     title: "Archive",
@@ -25,7 +20,7 @@ const CONFIG = {
 
   // CONFIG configration (required)
   link: "https://reiwruts.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  since:, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
@@ -36,7 +31,7 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true,
     config: {
       measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
@@ -62,7 +57,7 @@ const CONFIG = {
     },
   },
   cusdis: {
-    enable: false,
+    enable: true,
     config: {
       host: "https://cusdis.com",
       appid: "", // Embed Code -> data-app-id value
